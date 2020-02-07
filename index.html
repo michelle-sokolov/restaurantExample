@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <title>restaurantExample</title>
+</head>
+<header>
+<img src="https://imgur.com/dsMRT71.png" height="100px">
+</header>
+<body>
+<!--header/navbar-->   
+<center>
+<ul class="nav nav-pills">
+    <li role="presentation"><a href="#locations" class="scrollLink"><button type="button" class="btn btn-primary">Locations</button></a></li>
+    <li role="presentation"><a href="#menu" class="scrollLink"><button type="button" class="btn btn-primary">Menu</button></a></li>
+    <li role="presentation"><a href="#about" class="scrollLink"><button type="button" class="btn btn-primary">About</button></a></li>
+    <li role="presentation"><a href="#events" class="scrollLink"><button type="button" class="btn btn-primary">Events</button></a></li>
+</ul>
+<br>
+<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Reservations</button>
+<!--main images--> 
+<img class="mySlides" src="https://imgur.com/mRjLozm.png" height="75%" width="100%">
+<img class="mySlides" src="https://imgur.com/4wldp1R.png"height="75%" width="100%">
+<img class="mySlides" src="https://imgur.com/yfdLda6.png"height="75%" width="100%">
+<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<!--locations-->
+<div id="locations">
+    <h3>Our Locations</h3>
+    <div class="row">
+        <div class="column">
+          <div class="example">    
+          <img src="https://imgur.com/HdB1hmV.png" alt="Snow" height="300px" width="100%">
+          <div class="fadedbox">
+            <div class="title text"> New York, NY</div>
+          </div>
+        </div>
+        </div>
+        <div class="column">
+          <div class="example">
+          <img src="https://imgur.com/B8Lx1Dz.png" alt="Forest" height="300px" width="100%">
+          <div class="fadedbox">
+            <div class="title text"> Los Angeles, CA</div>
+          </div>
+        </div>
+    </div>
+        <div class="column">
+         <div class="example">
+          <img src="https://imgur.com/EqjR244.png" alt="Mountains" height="300px" width="100%">
+          <div class="fadedbox">
+            <div class="title text"> Chicago, IL</div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div> 
+<!--Menu-->
+<div id="menu">
+<h3>Our Menu</h3>
+<br>
+<h4>SUSHI ROLLS - CLASSIC ROLLS</h4>
+<br>
+<div class="row">
+    <div class="column">
+    <ul style="list-style-type:none;"> 
+       <li>CUCUMBER
+           <br>
+        hand $7, cut $8</li>
+        <br>
+        <li>AVOCADO<br>
+        hand $8, cut $9</li>
+        <br> 
+        <li>VEGETABLE<br>
+        hand $8, cut $9</li>
+        <br> 
+        <li>CALIFORNIA<br>
+        hand $9, cut $10</li>
+    </ul>
+    </div>
+    <div class="column">
+        <ul style="list-style-type:none;">
+            <li>YELLOWTAIL
+                <br>
+            hand $9, cut $10</li>
+            <br>  
+             <li>SPICY TUNA<br>
+             hand $, 8cut $9</li>
+             <br>  
+             <li>SPICY YELLOWTAIL<br>
+                hand $10, cut $11</li>
+                <br>  
+             <li>SALMON<br>
+            hand $9, cut $10</li>
+         </ul>
+    </div>
+    <div class="column">
+        <ul style="list-style-type:none;">  
+            <li>TUNA<br>
+            hand $10, cut $11</li>
+            <br>  
+             <li>SHRIMP TEMPURA<br>
+                $15</li>
+            <br>  
+             <li>ROCK SHRIMP TEMPURA<br>
+             $18</li>
+            <br> 
+             <li>RAINBOW<br>
+                $20</li>
+         </ul>
+    </div>
+  </div>
+  <br>
+<h4>SPECIALTY ENTREES</h4>
+
+    <div class="column">
+        <ul style="list-style-type:none;"> 
+       <li>HOUSE SPECIAL
+        <br>
+        $21
+        <br>
+        tuna, hamachi, salmon, scallop, crab roll</li>
+       </div>
+       <div class="column"> 
+        <ul style="list-style-type:none;">    
+        <li>LOBSTER
+        <br>
+        $26
+        <br>
+        dynamite spicy lobster, california roll</li>
+        </ul>
+        </div>
+        <div class="column"> 
+        <ul style="list-style-type:none;">
+        <li>BAKED CRAB HAND ROLLS
+        <br>
+        $19
+        <br>
+        Specialty signature soy paper roll</li>  
+        </div>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+<br>
+<!--about-->
+<div id="about">
+<h3>About Us</h3>
+    <p>
+It is our great pleasure to serve you with the highest quality food and excellent service at the best prices.
+<br>On the frontier of Japanese fusion restaurants, we are proud of our unique and wonderful cuisine which is created
+<br> from the finest ingredients. We promise you the freshest seafood, meat and produce.The fun & friendly atmosphere
+<br>of the sushi bar and the beautiful presentation of each dish with their remarkable and distinctive flavors have 
+<br>made us an experience that inspires our guests to return again and again.
+</p>
+</div>
+<img src="https://imgur.com/7jRnp88.png"height="500px" width="800px">
+<br>
+<!--Event form-->
+<div id="events">
+<h3>Request an Event</h3>
+<h4>No better place to have your special event than here!
+    <br>
+    Enter your details below so we can get planning.
+</h4>
+<img src="https://imgur.com/IANQXmB.png"height="500px" width="800px">
+<br>
+<form>
+    <div class="form-group">
+        <label for="exampleInputName1">Full Name</label>
+        <input type="name" class="form-control" id="exampleInputName1" placeholder="Full Name">
+      </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputDescription1">Event Description (eg. "Birthday", "Office Party")</label>
+      <input type="Description" class="form-control" id="exampleInputDescription1" placeholder="Description">
+    </div>
+    <div class="form-group">
+    <label for="exampleInputGuests1">Number of Guests</label>
+    <select class="form-control">
+        <option>5-10</option>
+        <option>11-20</option>
+        <option>20+</option>
+        </select>
+    </div>      
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+  </div>
+</center>
+  <!--reservation modal-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="control-label">Name:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="control-label">Email Address:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="message-text" class="control-label">Phone Number:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="control-label">Date:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>  
+              <div class="form-group">
+                <label for="message-text" class="control-label">Number of Guests:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>                
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<!--footer-->
+<div class="footer">
+    copyright 2020
+  </div>
+<script src="app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
